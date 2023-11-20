@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial;
+  font-size: 62.5%;
+}
+
+.App {
+  margin-top: 12rem;
+}
+
+.game {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.button-and-timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.6rem;
+}
+
+.start-button,
+.end-button {
+  height: 3.2rem;
+  width: 6.8rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border: 1px solid black;
+}
+
+.start-button {
+  background-color: #1efffb;
+}
+
+.end-button {
+  background-color: #ff3030;
+}
+
+.timer {
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.5rem;
+  height: 3.2rem;
+  width: 6.8rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+  border: 1px solid black;
+}
+
+.tiles {
+  font-size: 0;
+}
+
+.tile-div {
+  display: inline-block;
+}
+
+.tile {
+  height: 10rem;
+  width: 10rem;
+
+  border: 1px solid black;
+}
+
+.tile-color-0 {
+  background-color: gray;
+}
+
+.tile-color-1 {
+  background-color: #2aff00;
+}
+
+.tile-color-2 {
+  background-color: #1e609e;
+}
